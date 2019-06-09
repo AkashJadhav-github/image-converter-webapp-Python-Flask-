@@ -1,0 +1,6 @@
+This file contains all the commands to setup the project.
+
+1)pip install flask
+2)pip install pillow
+3)Run the file database_setup.py to setup the database.
+

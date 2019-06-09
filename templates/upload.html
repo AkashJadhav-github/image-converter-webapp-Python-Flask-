@@ -1,0 +1,15 @@
+<html>
+   <body>
+      <h1>File Upload</h1>
+      {% if msg %}
+         <p><strong>{{ msg }}</strong>
+	 <br><b><a href = "/logout">click here to log out</a></b>
+      {% endif %}
+	<br><br>
+      <form action = "http://localhost:5000/uploader" method = "POST" 
+         enctype = "multipart/form-data">
+         <input type = "file" name = "file" />
+         <input type = "submit"/>
+      </form>
+   </body>
+</html>
